@@ -1,23 +1,6 @@
 '''
-OOP
-- v1
-    - objet rec, ball
-- v2 : 
-    - setmiddle
-    - resetSpeed
-    - bug : vx=-vx out of collideRec in Ball() ?
-- v3 : 
-    - class game
-- v3.1 : 
-    - onkey
-    - gamme, Raquette, ball independent
-- v4
-    - onkey revwed
-    - font changed for scores
-    - fr for game and en for classes
-    - col = yellow by default in classes methods
-    - https://stackoverflow.com/a/62864206 issue
-    
+Sinbrive 2022
+PONG game used for coding session in our fablab 
 '''
 
 from items import Paddlet, Ball, Game
