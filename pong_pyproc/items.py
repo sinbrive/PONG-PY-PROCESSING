@@ -1,5 +1,3 @@
-
-
 class Game():
     def __init__(self, _left, _right, _ball):
         self.gameOver=False
