@@ -5,7 +5,6 @@ PONG game used for coding session in our fablab
 
 from items import Paddlet, Ball, Game
 
-
 # raquettes
 largeur=15
 hauteur=100
@@ -24,9 +23,6 @@ def setup():
     balle = Ball(100, 100, 20, VITESSE)
     
     game = Game(raq1, raq2, balle)
-    
-
-    
     
 def draw(): 
    
@@ -57,8 +53,7 @@ def draw():
             balle.resetSpeed(-1)
             balle.setMiddle(raq2)
             game.setScore(raq1)
-            game.waitAction()
-            
+            game.waitAction() 
     # affichage
     game.display()
 
